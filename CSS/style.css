@@ -16,7 +16,12 @@ h1 {
 }
 
 .slideShowButtonPrevious, .slideShowButtonNext {
-	color: #B27FB7;
+	border-radius: 100%;
+	padding: 0rem 0.6rem;
+	color: #b27fb7;
+	font-size: 2rem;
+	border-style: none;
+	background-color: #8b628f;
 }
 
 @media screen and (max-width: 768px) {
