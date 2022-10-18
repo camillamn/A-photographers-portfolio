@@ -3,11 +3,11 @@ body {
 	font-size: 20px;
 }
 
-header {
+.header__title {
 	margin-top: 1rem;
 	display: flex;
 	justify-content: center;
-	font-family: 'Monoton', cursive;
+	font-family: 'Monoton', 'cursive';
 	font-size: 1.5rem;
 	color: #FFF;
 	letter-spacing: 0.8rem;
@@ -20,7 +20,7 @@ header {
 	height: 600px;
 }
 
-.slideShowContainer {
+.slideShow__container {
 	height: 100%;
 	position: relative;
 	background-color: lightgreen;
@@ -28,13 +28,13 @@ header {
 	list-style: none;
 }
 
-.slideShowTrack {
+.slideShow__track {
 	padding: 0;
 	margin: 0;
 	list-style: none;
 }
 
-.slide img {
+.slideShow__images {
 	max-height: 70vh;
 	max-width: 100%;
 }
@@ -45,7 +45,7 @@ header {
 	width: 80%;
 }
 
-.slideShowButton {
+.slideShow__button {
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
@@ -58,16 +58,21 @@ header {
 	cursor: pointer;
 }
 
-.slideShowButtonPrevious {
+.slideShow__button--previous {
 	left: -2rem;
 }
 
-.slideShowButtonNext {
+.slideShow__button--next {
 	left: -2rem;
 }
 
+.slideShow__navigation {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
-.slideShowIndicator {
+.slideShow__indicator {
 	border: 0;
 	border-radius: 50%;
 	width: 1rem;
