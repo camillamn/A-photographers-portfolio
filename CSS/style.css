@@ -20,7 +20,7 @@ body {
 	position: relative;
 	width: 100%;
 	max-width: 1200px;
-	height: 900px;
+	height: 80vh;
 	background-color: green;
 	overflow: hidden;
 	display: flex;
@@ -53,9 +53,8 @@ body {
 }
 
 .slideshow__images {
-	padding: 2rem;
 	max-height: 800px;
-	/* object-fit: cover; */
+	object-fit: cover;
 }
 
 
