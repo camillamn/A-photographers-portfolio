@@ -44,35 +44,3 @@ previousSlide.addEventListener('click', function () {
 		slide.style.transform = `translateX(${500 * (index - currentSlide)}%)`;
 	});
 });
- 
-
-
-
-
-/* Tested function that was not working*/
-/*  const slideIndex = 0;
-  showSlides(slideIndex);
-
- function nextSlide(next) {
-	showSlides(slideIndex += next);
- }
-
- function currentSlide(next) {
-showSlides(slideIndex = next);
- }
-
- function showSlides(n) {
- 	let index;
-	let slides = document.getElementsByClassName('.photo_box');
- 	let dots = document.getElementsByClassName('.slideshow__dots')
- 		if (next > slides.length) {slideIndex = 1}
- 		if (next < 1) { slideIndex = slides.length}
- 		for (index = 0; index < slides.length; index++) {
- 			slides[index].style.display = 'none';
- 		}
- 		for (index = 0; index < dots.length; index++) {
- 			dots[index].className.replace('active', '')
- 		}
- 	slides[slideIndex-1].style.display = 'block';
- 	dots[slideIndex-1].className += 'active';
- } */

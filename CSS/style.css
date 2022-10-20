@@ -47,7 +47,6 @@ body {
 .photo_box {
 	height: 100%;
 	max-width: 1000px;
-	/* max-height: 600px; */
 	position: absolute;
 	transition: all 0.5s;
 	display: flex;
