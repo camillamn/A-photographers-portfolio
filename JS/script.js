@@ -9,3 +9,13 @@ const navigationDots = document.querySelectorAll('.slideShow__dots');
 const current = 0 ;
 
 
+nextButton.addEventListener('click',handleNextButtonClick);
+
+function handleNextButtonClick() {
+	slide ();
+}
+
+function slide() {
+	const photoBox = document.querySelectorAll('.photo_box');
+	photoBox.classList.slide('.photo_box__hidden');
+};
