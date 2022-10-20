@@ -21,6 +21,11 @@
 // };
 
 
+/* 
+	used 
+	https://blog.logrocket.com/build-image-carousel-from-scratch-vanilla-javascript/
+	as a refenrence
+	*/
 
 const slides = document.querySelectorAll('.photo_box');
 
