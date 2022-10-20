@@ -102,14 +102,14 @@ body {
 .slideShow__button--previous {
 	display: flex;
 	justify-content: center;
-	left: -2rem;
+	align-items: center;
 }
 
 
 .slideShow__button--next {
 	display: flex;
 	justify-self: end;
-	right: -2rem;
+	align-items: center;
 
 }
 
