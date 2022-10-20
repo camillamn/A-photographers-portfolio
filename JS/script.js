@@ -6,3 +6,6 @@ const nextButton = document.querySelector('.slideShow__button--next');
 const imageText = document.querySelectorAll('slideshow__images--text');
 const leftArrow = document.querySelectorAll('slideShow__button--previous');
 const rightArrow = document.querySelectorAll('slideShow__button--next');
+
+console.log(slideshowImages);
+console.log(imageText);
