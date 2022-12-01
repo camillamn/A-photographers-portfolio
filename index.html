@@ -13,121 +13,103 @@
 	</head>
 
 	<body>
-		<Header>
+		<header>
 			<h1 class="header__title">P E C</h1>
-		</Header>
+		</header>
 		
 		<main class="slideshow">
-			<div class="slideShow__container">
+			<div class="slideshow__container">
 				<!-- BUTTONS -->
-				<button class="slideshow__button slideshow__button--previous"> &larr;</button>
-				<button class="slideshow__button slideshow__button--next"> &rarr; </button>
+				<button class="slideshow__button slideshow__button-previous"> &larr;</button>
+				<button class="slideshow__button slideshow__button-next"> &rarr; </button>
+
 				<!-- Slideshow-imagelist starts here -->
-					<ul class="slideshow__track">
-						<!-- SLIDE 1-->
-						<div class="photo_box">
-							<li class="slide">
-								<img 
-									class="slideshow__images"
-									src="./Assets/Images/cacti.jpg" 
-									alt="Desert cacti"> 
-							</li>
-							<p class="slideshow__images--text">Desert cacti</p>
-						</div>
-						
-						<!-- SLIDE 2-->
-						<div class="photo_box">	
-							<li class="slide">
-								<img 
-									class="slideshow__images"
-									src="./Assets/Images/dawn.jpg" 
-									alt="Dawn depicted by the ocean">
-							</li>
-							<p class="slideshow__images--text">Dawn depicted by the ocean</p>
-						</div>
-						<!-- SLIDE 3-->
-						<div class="photo_box">							
-							<li class="slide">
-								<img 
-									class="slideshow__images"
-									src="./Assets/Images/blood_moon_between_branches.jpg" 
-									alt="The Blood moon captured through autumnal branches">
-							</li>
-							<p class="slideshow__images--text">The Blood moon captured through autumnal branches</p>
-						</div>
-						<!-- SLIDE 4-->
-						<div class="photo_box">	
-							<li class="slide">
-								<img 
-									class="slideshow__images"
-									src="./Assets/Images/bridge_with_evergreens.jpg" 
-									alt="Bridge with Evergreens">
-							</li>
-							<p class="slideshow__images--text">Bridge with Evergreens</p>
-						</div>
-						<!-- SLIDE 5-->
-						<div class="photo_box">	
-							<li class="slide">
-								<img 
-									class="slideshow__images"
-									src="./Assets/Images/dusk_mountain.jpg" 
-									alt="Mountains at dusk">
-							</li>
-							<p class="slideshow__images--text">Mountains at dusk</p>
-						</div>
-						<!-- SLIDE 6-->
-						<div class="photo_box">	
-							<li class="slide">
-								<img 
-									class="slideshow__images"
-									src="./Assets/Images/iceland_hot_spring.jpg" 
-									alt="Hot Springs in Iceland">
-							</li>
-							<p class="slideshow__images--text">Hot Springs in Iceland</p>
-						</div>
-						<!-- SLIDE 7-->
-						<div class="photo_box">	
-							<li class="slide">
-								<img 
-									class="slideshow__images"
-									src="./Assets/Images/Iced_mountain_roof.jpg" 
-									alt="Glacier pathway">
-							</li>
-							<p class="slideshow__images--text">Glacier pathway</p>
-						</div>
-						<!-- SLIDE 8-->
-						<div class="photo_box">	
-							<li class="slide">
-								<img 
-									class="slideshow__images"
-									src="./Assets/Images/Icy_waterfall.jpg" 
-									alt="Waterfall in winter">
-							</li>
-							<p class="slideshow__images--text">Waterfall in winter</p>
-						</div>
-						<!-- SLIDE 9-->
-						<div class="photo_box">	
-							<li class="slide">
-								<img 
-									class="slideshow__images"
-									src="./Assets/Images/misty_mountains.jpg" 
-									alt="Mountains shrouded in mist">
-							</li>
-							<p class="slideshow__images--text">Mountains shrouded in mist</p>
-						</div>
-						<!-- SLIDE 10-->
-						<div class="photo_box">	
-							<li class="slide">
-								<img 
+				<div class="slideshow__track">
+
+					<!-- SLIDE 1-->
+					<figure class="slideshow__photo-box">
+							<img 
 								class="slideshow__images"
-								src="./Assets/Images/autumn_by_ocean.jpg" 
-								alt="Autumnal foliage by the crisp blue ocean">
-							</li>
-							<p class="slideshow__images--text">Autumnal foliage by the crisp blue ocean</p>
-						</div>
-					</ul>
-					<!-- Slideshow-imagelist ends here -->
-			</div>		
+								src="./Assets/Images/cacti.jpg" 
+								alt="Desert cacti"> 
+						<figcaption class="slideshow__images-text">Desert cacti</figcaption>
+					</figure>
+					
+					<!-- SLIDE 2-->
+					<figure class="slideshow__photo-box">	
+							<img 
+								class="slideshow__images"
+								src="./Assets/Images/dawn.jpg" 
+								alt="Dawn depicted by the ocean">
+						<figcaption class="slideshow__images-text">Dawn depicted by the ocean</figcaption>
+					</figure>
+					<!-- SLIDE 3-->
+					<figure class="slideshow__photo-box">							
+							<img 
+								class="slideshow__images"
+								src="./Assets/Images/blood_moon_between_branches.jpg" 
+								alt="The Blood moon captured through autumnal branches">
+						<figcaption class="slideshow__images-text">The Blood moon captured through autumnal branches</figcaption>
+					</figure>
+					<!-- SLIDE 4-->
+					<figure class="slideshow__photo-box">	
+							<img 
+								class="slideshow__images"
+								src="./Assets/Images/bridge_with_evergreens.jpg" 
+								alt="Bridge with Evergreens">
+						<figcaption class="slideshow__images-text">Bridge with Evergreens</figcaption>
+					</figure>
+					<!-- SLIDE 5-->
+					<figure class="slideshow__photo-box">	
+							<img 
+								class="slideshow__images"
+								src="./Assets/Images/dusk_mountain.jpg" 
+								alt="Mountains at dusk">
+						<figcaption class="slideshow__images-text">Mountains at dusk</figcaption>
+					</figure>
+					<!-- SLIDE 6-->
+					<figure class="slideshow__photo-box">	
+							<img 
+								class="slideshow__images"
+								src="./Assets/Images/iceland_hot_spring.jpg" 
+								alt="Hot Springs in Iceland">
+						<figcaption class="slideshow__images-text">Hot Springs in Iceland</figcaption>
+					</figure>
+					<!-- SLIDE 7-->
+					<figure class="slideshow__photo-box">	
+							<img 
+								class="slideshow__images"
+								src="./Assets/Images/Iced_mountain_roof.jpg" 
+								alt="Glacier pathway">
+						<figcaption class="slideshow__images-text">Glacier pathway</figcaption>
+					</figure>
+					<!-- SLIDE 8-->
+					<figure class="slideshow__photo-box">	
+							<img 
+								class="slideshow__images"
+								src="./Assets/Images/Icy_waterfall.jpg" 
+								alt="Waterfall in winter">
+						<figcaption class="slideshow__images-text">Waterfall in winter</figcaption>
+					</figure>
+					<!-- SLIDE 9-->
+					<figure class="slideshow__photo-box">	
+							<img 
+								class="slideshow__images"
+								src="./Assets/Images/misty_mountains.jpg" 
+								alt="Mountains shrouded in mist">
+						<figcaption class="slideshow__images-text">Mountains shrouded in mist</figcaption>
+					</figure>
+					<!-- SLIDE 10-->
+					<figure class="slideshow__photo-box">	
+							<img 
+							class="slideshow__images"
+							src="./Assets/Images/autumn_by_ocean.jpg" 
+							alt="Autumnal foliage by the crisp blue ocean">
+						<figcaption class="slideshow__images-text">Autumnal foliage by the crisp blue ocean</figcaption>
+					</figure>
+				</div>
+				<!-- Slideshow-imagelist ends here -->
+		</div>		
 				
 					<!-- Slideshow-navigator starts here -->
 			<!-- 	<div class="slideshow__navigation">

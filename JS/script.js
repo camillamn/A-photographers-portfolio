@@ -4,14 +4,14 @@
 	as a refenrence
 	*/
 
-const slides = document.querySelectorAll('.photo_box');
+const slides = document.querySelectorAll('.slideshow__photo-box');
 
 slides.forEach((slide, index) => {
 	slide.style.transform = `translateX(${index * 500}%)`;
 });
 
  // next slide
-const nextSlide = document.querySelector('.slideshow__button--next');
+const nextSlide = document.querySelector('.slideshow__button-next');
 
 let currentSlide = 0;
 
@@ -31,7 +31,7 @@ nextSlide.addEventListener('click', function () {
  
 
  // previous slide
-const previousSlide = document.querySelector('.slideshow__button--previous');
+const previousSlide = document.querySelector('.slideshow__button-previous');
 
 previousSlide.addEventListener('click', function () {
 	if (currentSlide === 0) {
