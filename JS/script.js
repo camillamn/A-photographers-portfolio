@@ -18,7 +18,7 @@ let currentSlide = 0;
 let maxSlide = slides.length - 1;
 
 nextSlide.addEventListener('click', function () {
-	if (currentSlide=== maxSlide) {
+	if (currentSlide === maxSlide) {
 		currentSlide = 0;
 	} else {
 		currentSlide++;
@@ -29,7 +29,6 @@ nextSlide.addEventListener('click', function () {
 	});
 });
  
-
  // previous slide
 const previousSlide = document.querySelector('.slideshow__button-previous');
 
